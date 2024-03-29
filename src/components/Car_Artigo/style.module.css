@@ -11,7 +11,8 @@
     color: #eeeeee9c;
     padding: 5px;
 }
-.container button {
+.container a {
+    text-decoration: none;
     width: 200px;
     background-color: transparent;
     color: #eee;
@@ -20,7 +21,7 @@
     border-bottom: 1px solid #eee;
     height: 30px;
 }
-.container button:hover {
+.container a:hover {
     background-color: transparent;
     border: none;
     animation: clear 2.5s  infinite ease-in-out;
@@ -50,15 +51,15 @@
     .container {
         width: 100%;
 }
-.container h2, button {
+.container h2, a {
     margin: 0 auto;
     width: 90%;
 }
-.container button {
+.container a{
     margin-top: 30px;
 }
 .container img {
-    width: 50%;
+    width: 30%;
     height: 200px;
     margin: 0 auto;
     cursor:pointer;

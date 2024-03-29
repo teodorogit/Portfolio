@@ -6,7 +6,7 @@ const index = ({conteudo,url,link,button}) => {
     <div className={classes.container}>
         <img src={url} alt={url} />
         <h2>{conteudo}</h2>
-        <button href={link}>{button}</button>
+        <a href={link} target='_blank'>{button}</a>
     </div>
   )
 }

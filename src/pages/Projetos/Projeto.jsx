@@ -9,11 +9,18 @@ import unicvCoffe from '../../assets/unicv_coffe.png'
 import site_desaparecidos from '../../assets/site_desaparecido.jpg'
 import todoReact from '../../assets/todo-react.jpg'
 import site_cadeiras from '../../assets/site-cadeiras.png'
+import profile_page from '../../assets/profile_page_sass.png'
+import quiz_js from '../../assets/quiz-imagem.jpg'
+import telaCadastro from '../../assets/tela-cadastro.jpg'
+import telaPagamento from '../../assets/tela-pagamento.jpg'
+import calculator from '../../assets/calculator.png'
+import concepts from '../../assets/concepts.png'
+import jogovelha from '../../assets/jogovelha.png'
+import reactart from '../../assets/reactart.png'
 
 const Projeto = () => {
   return (
     <div className={classes.container} id='projetos'>
-
       <div className={classes.content}>
         <h3>Artigos Escritos</h3>
          <Car_Artigo
@@ -22,7 +29,6 @@ const Projeto = () => {
         link="https://www.tabnews.com.br/teodorogit/exaustao-mental-e-suicidio-na-area-da-tecnologia"
         button='Leia o artigo completo'
         />        
-
       </div>
       <div >
         <div className={classes.card_title}>
@@ -55,15 +61,63 @@ const Projeto = () => {
     />
       <CardProjeto
     content='Desaparecidos'
-    valor='Replica do twitter com React e Typescript'
+    valor='Site informativo | Desaparecidos de Maringá e região'
     url='https://twitter-ui-react-typescript.vercel.app/'
     imgCard={site_desaparecidos}
     />
       <CardProjeto
     content='Todo-list'
-    valor='Replica do twitter com React e Typescript'
+    valor='Todo-List React,criação e manipulação de todos'
     url='https://twitter-ui-react-typescript.vercel.app/'
     imgCard={todoReact}
+    />
+      <CardProjeto
+    content='Webpage Apresentação Pesoal'
+    valor='Portfólio simples feito com React e Sass'
+    url=''
+    imgCard={profile_page}
+    />
+      <CardProjeto
+    content='Quiz com Javascript'
+    valor='Perguntas,respostas e pontuação feita com JS'
+    url='https://quiz-perguntas-javascript.vercel.app/'
+    imgCard={quiz_js}
+    />
+      <CardProjeto
+    content='Calculadora de Investimentos'
+    valor='Cálculo dinâmico de valores futuros'
+    url='https://codesandbox.io/p/devbox/calculator-of-investiment-cwz644'
+    imgCard={calculator}
+    />
+      <CardProjeto
+    content='Conceitos React'
+    valor='Perguntas, respostas e pontuação feita com JS'
+    url='https://codesandbox.io/p/devbox/core-concepts-react-fhl8xy'
+    imgCard={concepts}
+    />
+      <CardProjeto
+    content='Jogo da Velha React'
+    valor='Lógica para 2 jogadores, Jogo da velha com React'
+    url='https://codesandbox.io/p/devbox/tic-tac-toe-react-forked-w693t6'
+    imgCard={jogovelha}
+    />
+      <CardProjeto
+    content='ReactArt + Tailwind'
+    valor='Estilização dinâmica com Tailwind'
+    url='https://codesandbox.io/p/devbox/react-arts-tailwind-jh2jx4'
+    imgCard={reactart}
+    />
+      <CardProjeto
+    content='Projeto(faculdade) Tela de Cadastro estacionamento'
+    valor='Cadastro de tickets '
+    url=''
+    imgCard={telaCadastro}
+    />
+      <CardProjeto
+    content='Projeto(faculdade) Tela de Pagamento estacionamento'
+    valor='Validação de Pagamento'
+    url=''
+    imgCard={telaPagamento}
     />
    </div>
       </div>
