@@ -59,8 +59,8 @@
     margin-top: 30px;
 }
 .container img {
-    width: 30%;
-    height: 200px;
+    width: 40%;
+    height: 220px;
     margin: 0 auto;
     cursor:pointer;
     animation: clear 2.5s  infinite ease-in-out;

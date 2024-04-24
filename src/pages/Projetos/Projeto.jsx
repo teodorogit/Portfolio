@@ -3,6 +3,8 @@ import classes from './Style.module.css'
 import Car_Artigo from '../../components/Car_Artigo/index'
 import CardProjeto from '../../components/CardProjeto/index'
 import artigo from '../../assets/artigo_s.png'
+import usereducer from '../../assets/reducer.png'
+import react19 from '../../assets/react19.png'
 import uitwitter from '../../assets/ui-twiiter.png'
 import omnifood from '../../assets/omnifood.jpg'
 import unicvCoffe from '../../assets/unicv_coffe.png'
@@ -23,12 +25,20 @@ const Projeto = () => {
     <div className={classes.container} id='projetos'>
       <div className={classes.content}>
         <h3>Artigos Escritos</h3>
-         <Car_Artigo
-        url={artigo}
-        conteudo='Artigo que conscientiza e pauta assuntos relevantes sobre saúde mental na área da tecnologia, destacando a importância da saúde mental no desempenho do profissional de T.i'
-        link="https://www.tabnews.com.br/teodorogit/exaustao-mental-e-suicidio-na-area-da-tecnologia"
-        button='Leia o artigo completo'
-        />        
+        <div className={classes.artigos}>
+          <Car_Artigo
+          url={artigo}
+          conteudo='Artigo que conscientiza e pauta assuntos relevantes sobre saúde mental na área da tecnologia, destacando a importância da saúde mental no desempenho do profissional de T.i'
+          link="https://www.tabnews.com.br/teodorogit/exaustao-mental-e-suicidio-na-area-da-tecnologia"
+          button='Leia o artigo completo'
+          />       
+          <Car_Artigo
+          url={react19}
+          conteudo='Informativo sobre as novidades da atualização do React, prevista para chegar em 2024, descrevo com exemplos de código as novidades que a linguagem trará. '
+          link="https://www.tabnews.com.br/teodorogit/react-19-entendas-as-novidades-e-mudancas-que-chegarao-na-nova-versao-do-react-em-2024"
+          button='Leia o artigo completo'
+          />
+        </div>        
       </div>
       <div >
         <div className={classes.card_title}>
@@ -61,7 +71,7 @@ const Projeto = () => {
     />
       <CardProjeto
     content='Desaparecidos'
-    valor='Site informativo | Desaparecidos de Maringá e região'
+    valor='Informações sobre Desaparecidos de Maringá e região'
     url='https://twitter-ui-react-typescript.vercel.app/'
     imgCard={site_desaparecidos}
     />
@@ -70,6 +80,12 @@ const Projeto = () => {
     valor='Todo-List React,criação e manipulação de todos'
     url='https://twitter-ui-react-typescript.vercel.app/'
     imgCard={todoReact}
+    />
+      <CardProjeto
+    content='Use-Reducer'
+    valor='Projeto simples praticando useReducer do React'
+    url='https://vercel.com/matheus-vinicius-lula-teodoros-projects/use-reducer-projeto-um'
+    imgCard={usereducer}
     />
       <CardProjeto
     content='Webpage Apresentação Pesoal'

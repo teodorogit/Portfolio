@@ -11,12 +11,12 @@ const Home = () => {
         <div className={classes.columns}>
           <div>
             <div className={classes.descricao}>
-            <h1>Developer</h1>
+            <h1>Portfólio Pessoal</h1>
             <h2>Matheus Teodoro</h2>
-            <p>Desenvolvedor de Software </p>
+            <p>Desenvolvedor de Software</p>
                   <span>
               Stacks</span>
-             <h3>React,Rest API's, JavaScript</h3>
+             <h3>React, Rest API's, JavaScript, HTML5, CSS3, Bootstrap, Tailwind.</h3>
             </div>
           </div>
            <img src={matheus} alt="" className={classes.matheus}/>

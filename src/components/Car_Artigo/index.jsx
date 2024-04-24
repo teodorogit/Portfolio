@@ -5,8 +5,8 @@ const index = ({conteudo,url,link,button}) => {
   return (
     <div className={classes.container}>
         <img src={url} alt={url} />
-        <h2>{conteudo}</h2>
         <a href={link} target='_blank'>{button}</a>
+        <h2>{conteudo}</h2>
     </div>
   )
 }

@@ -40,8 +40,13 @@
         margin-top: 0px;
     }
     .card_component p {
-        font-size:10px;
+        font-size:12px;
         color: #eee;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .card_component p::-webkit-scrollbar {
+        width: 0; /* Esconde a barra de rolagem do Chrome/Safari */
     }
     .card_component h3 {
         display: none;

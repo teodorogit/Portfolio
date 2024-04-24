@@ -8,7 +8,6 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" style={{backgroundImage:'linear-gradient(to right,#0C0C0C,#1E3431)'}}>
       <Container>
-        <Navbar.Brand href="#home" style={{color:'#eee'}}>Portfólio Pessoal</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:'#ddd',width:'100%',backgroundColor:'#7FFCAD',cursor:'pointer'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

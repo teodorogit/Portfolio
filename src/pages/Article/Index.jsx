@@ -10,7 +10,7 @@ const Index = () => {
         <img src={brain} alt="brain" className={classes.image}/>
         <div>
           <h3>Experiência</h3>
-          <p>Atuando como Trainne Full Stack há 8 meses, trabalhando em projetos usando React baseados em modelo no Figma, fui responsável por atualizar a versão do site em produção da empresa utilizando React, ja reproduzi modelos em figma de algumas telas dos Apps que estão em produção, atualmente trabalhando no desenvolvendo de uma aplicação que esta em react-native recriando em react, utilizando React, styled-components e consumo de Api.</p>
+          <p>Atuando como Trainne Full Stack há 9 meses, trabalhando em projetos usando React baseados em modelo no Figma, fui responsável por atualizar a versão do site em produção da empresa utilizando React, ja reproduzi modelos em figma de algumas telas dos Apps que estão em produção, atualmente trabalhando no desenvolvendo de uma aplicação que esta em react-native recriando em react, utilizando React, styled-components e consumo de Api.</p>
         </div>
       </div>
       <div className={classes.sobre} id='sobre'>
