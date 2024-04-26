@@ -54,43 +54,43 @@ const Projeto = () => {
       <CardProjeto
     content='Omnifood'
     valor='Replica do twitter com React e Typescript'
-    url='https://twitter-ui-react-typescript.vercel.app/'
+    url='https://omnifood-restaurante.vercel.app/'
     imgCard={omnifood}
     />
       <CardProjeto
     content='Unicv-Coffe'
     valor='Replica do twitter com React e Typescript'
-    url='https://twitter-ui-react-typescript.vercel.app/'
+    url='https://github.com/teodorogit/Unicv-ConectaCoffe'
     imgCard={unicvCoffe}
     />
       <CardProjeto
     content='Venda de Cadeiras'
     valor='Replica do twitter com React e Typescript'
-    url='https://twitter-ui-react-typescript.vercel.app/'
+    url='https://site-de-venda-cadeiras.vercel.app/'
     imgCard={site_cadeiras}
     />
       <CardProjeto
     content='Desaparecidos'
     valor='Informações sobre Desaparecidos de Maringá e região'
-    url='https://twitter-ui-react-typescript.vercel.app/'
+    url='https://projeto-site-desaparecidos.vercel.app/'
     imgCard={site_desaparecidos}
     />
       <CardProjeto
     content='Todo-list'
     valor='Todo-List React,criação e manipulação de todos'
-    url='https://twitter-ui-react-typescript.vercel.app/'
+    url='https://github.com/teodorogit/todo-list-react'
     imgCard={todoReact}
     />
       <CardProjeto
     content='Use-Reducer'
     valor='Projeto simples praticando useReducer do React'
-    url='https://vercel.com/matheus-vinicius-lula-teodoros-projects/use-reducer-projeto-um'
+    url='https://use-reducer-projeto-um.vercel.app/'
     imgCard={usereducer}
     />
       <CardProjeto
     content='Webpage Apresentação Pesoal'
     valor='Portfólio simples feito com React e Sass'
-    url=''
+    url='https://single-profile-page.vercel.app/'
     imgCard={profile_page}
     />
       <CardProjeto

@@ -47,10 +47,6 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
-.matheus {
-    width: 80%;
-}
-
 
 @media (max-width:700px){
     .columns {
@@ -80,3 +76,17 @@
         color: aquamarine;
     }
 }
+
+.matheus {
+    width: 80%;
+    border-radius: 50%;
+    border-bottom: 30px solid  rgba(111, 170, 111, 0.236);
+    box-shadow: 0px 20px 30px rgba(84, 128, 84, 0.121);
+    transition: ease-in-out;
+}
+.matheus:hover {
+    cursor: pointer;
+    transform: scale(1.020);
+} 
+
+
